@@ -24,7 +24,7 @@ Run tests
 Inside a root directory run that command:
 
 ```shell
-$ python -m unittest discover -s algorithm
+$ python -m unittest discover -s algorithms
 ```
 
 License
