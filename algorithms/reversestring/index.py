@@ -2,7 +2,20 @@
 # -*- coding: utf-8 -*-
 
 def reverseString(word):
-    return word[::-1]
+    reversed = ""
+    for ch in list(word):
+        reversed = "{0}{1}".format(ch, reversed)
+    return reversed
+
+
+# Solution 1
+# return word[::-1]
+
+# Solution 2
+# reversed = ""
+# for ch in list(word):
+#   reversed = "{0}{1}".format(ch, reversed)
+# return reversed
 
 if __name__ == "__main__":
     reverseString("abcd")
