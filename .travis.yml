@@ -19,7 +19,6 @@ script:
   if [[ "$TRAVIS_OS_NAME" == 'linux' && -n "$PYVER" ]]; then
     printf "FROM python:${PYVER}-alpine\nRUN apk add --update make\nWORKDIR /code\nENTRYPOINT []\nCMD [\"make\"]" > Dockerfile
     docker build --tag tester:${PYVER}-alpine .
-    docker run -it -v `pwd`:/code tester:${PYVER}-alpine composer install --dev --prefer-dist
     docker run -it -v `pwd`:/code tester:${PYVER}-alpine
   fi
 
