@@ -1,4 +1,4 @@
-# AlgorithmsPython
+# AlgorithmsPython [![Build Status](https://travis-ci.org/seregatte/AlgorithmsPython.svg?branch=master)](https://travis-ci.org/seregatte/AlgorithmsPython)
 
 Some Algorithms written in Python for language studies (PR are welcome)
 
