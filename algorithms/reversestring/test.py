@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import unittest
-import index
+import reversestring.index as index
 
 class LearningCase(unittest.TestCase):
     def test_reverse_string(self):
